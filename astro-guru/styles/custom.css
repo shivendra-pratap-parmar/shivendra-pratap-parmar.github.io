@@ -69,7 +69,7 @@ body{
 .review_card{
     display: flex;
     flex-flow: column;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     border: 1px solid rgba(153, 140, 232, 0.4);
     padding: 0 0.15em;
@@ -91,6 +91,204 @@ body{
     border: none;
 }
 
+.problem_text{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.25rem;
+}
+
+.picture_text_card{
+    background-image: url(../assets/love.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14em;
+    width: 14em;
+    display: flex;
+    justify-content: center;
+    color: #f0f0f0;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    padding-top: 7em;
+}
+
+.reasons_card{
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.why_astrology{
+    background: #F6F4F8;
+    padding: 1em 0 2em 0;
+}
+
+.section_reason{
+    display: flex;
+    margin-top: 2em;
+}
+
+.why_astrology_image{
+    width: 6em;
+    height: 6em;
+}
+
+.why_astrology_heading{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-left: 0.5em;
+}
+
+.why_astrology_content{
+    margin-top: 1em;
+    color: grey;
+    padding-left: 0.5em;
+}
+
+.half-line{
+    width: calc(50vw - 50px);
+    height: 2px;
+    border: solid 1px #E2C9FF;
+    position: relative;
+    top: 1em;
+}
+
+.vector_logo_container{
+    display: inline-block;
+}
+
+.vector_img_1{
+    position: relative;
+    left: calc(50vw + -1.9em);
+}
+
+.vector_img_2{
+    position: relative;
+    left: calc(50vw + -3.85em);
+    bottom: 2px;
+}
+
+.review_section_heading{
+    text-align: center;
+}
+
+.review_section_heading h3{
+    font-size: 1.6rem;
+}
+
+.review_section_heading h6{
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.review_profile{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin: 2em 1em 0 1em;
+}
+
+.reviewer_name{
+    font-size: 1.2rem;
+}
+
+.reviewee_name{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #965FEB;
+}
+
+.review_text{
+    margin-top: 1em;
+    opacity: 0.75;
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding-right: 0.85em;
+}
+
+.tag_buttons_group a{
+    border: solid 2px #B373FF;
+    color: #B373FF !important;
+    padding: 0.25em 0.75em;
+    border-radius: 20px;
+}
+
+.how_it_works{
+    background: #F6F4F8;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.card_astro{
+    width: 80%;
+    height: 25em;
+    border-radius: 1em;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card_image{
+    background-image: url("../assets/card_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em 1em 0 0;
+}
+
+.astro_guru_profile{
+    border: solid 4px grey;
+    height: calc(5em + 4px);
+    width: calc(5em + 4px);
+    border-radius: 50%;
+}
+
+.card_astro_card_content{
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.features_section{
+    background: #F6F4F8;
+}
+
+.news_content{
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.news_section{
+    margin-top: 1em;
+}
+
+.news_card{
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 1em 0 1em 0;
+    text-align: center;
+}
+
+.tarot_section{
+    background-image: url("../assets/taro_cards.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24em;
+    margin: 4em 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.tarot_text{
+    margin-top: 4em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 2rem;
+    color: #f0f0f0;
+}
+
 /* material icons css */
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
@@ -102,4 +300,22 @@ body{
 /* utilities */
 .text-sm{
     font-size: 0.75rem;
+}
+
+.text-large{
+    font-size: 2rem;
+}
+
+.text-grey{
+    color: grey;
+}
+
+p.text-grey{
+    margin-bottom: 0.75em;
+}
+
+.arrow_right{
+    position: relative;
+    top: 0.3em;
+    left: 0.3em;
 }
