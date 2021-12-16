@@ -7,6 +7,8 @@ let blackHaze = "#383839", tuna = "#3fccb4";
 
 function initalizeCharts(){
     console.log('initialize charts called');
+    let canvas_ele = document.getElementById("column_chart");
+    canvas_ele.height = 320;
     let ctx = document.getElementById("column_chart").getContext("2d");
     const chart = new Chart(ctx, {
         type: "bar",
@@ -52,7 +54,8 @@ function initalizeCharts(){
                         }
                     }
                 ]
-            }
+            },
+            maintainAspectRatio: false
         }
     })
 }

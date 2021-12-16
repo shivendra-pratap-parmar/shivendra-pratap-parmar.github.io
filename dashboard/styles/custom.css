@@ -18,6 +18,7 @@ body{
     font-size: 16px;
     font-family: 'PT Sans', sans-serif;
     margin: 0;
+    letter-spacing: 1px;
 }
 
 .main-container{
@@ -46,7 +47,6 @@ body{
 }
 
 .main-header{
-    /* height: 100%; */
     padding: 1em 0;
     position: fixed;
     left: 0;
@@ -82,12 +82,91 @@ body{
 }
 
 .nav-items:first-child{
+    background: linear-gradient(to right, #f4fffd 10%, #00000000 90%);
     color: var(--puerto-rico);
     border-color: var(--puerto-rico);
 }
 
 .nav-items:last-child{
     color: var(--mandy);
+}
+
+.stats-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.card-container{
+    background: #ffffff;
+    border-radius: 1em;
+}
+
+.card-top{
+    padding: 1.5em 2.5em;
+}
+
+.card-bottom{
+    background: var(--puerto-rico);
+    padding: 1.5em 2.5em;
+    border-radius: 0 0 1em 1em;
+    color: #ffffff;
+}
+
+.card-top-profile{
+    width: 3em;
+    height: 3em;
+    background: #e8ffff;
+    border: solid 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-top-content{
+    margin-top: 1em;
+}
+
+.latest-sales-container{
+    background: #ffffff;
+    width: fit-content;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 1em;
+    line-height: 1.25em;
+}
+
+.latest-sales-heading{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 2.25em;
+}
+
+.right-section-card-container{
+    border: solid 1px var(--black-haze);
+    border-radius: 0.45em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.right-section-card-container:last-child{
+    margin-bottom: 0;
+}
+
+.upgrade-account{
+    display: flex;
+    padding: 1em 1em;
+    width: 14em;
+    align-items: end;
+    background: linear-gradient(to bottom, var(--tuna), var(--tuna));
+    border-radius: 0.75em;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.75em;
+    font-size: 1.1rem;
+    margin-top: 2em;
 }
 
 /* Utility Classes */
@@ -108,12 +187,19 @@ body{
 .h2{ font-size: 2.2rem; }
 .h3{ font-size: 1.5rem; }
 .h4{ font-size: 1.25rem; }
-.h5{ font-size: 1rem; }
+.h5{ font-size: 0.9rem; }
 .h6{ font-size: 0.75rem; }
 
 .text-primary{ color: var(--gray); }
 .text-secondary{ color: var(--tuna); }
 .text-selected{ color: var(--puerto-rico); }
+
+.float-end{ float: right; }
+.d-inline-block{ display: inline-block; }
+
+.mb-5{ margin-bottom: 3.25em; }
+
+.mt-3{ margin-top: 0.5em; }
 
 .material-icons-outlined.md-18, .material-icons.md-18 { font-size: 18px; }
 .material-icons-outlined.md-24, .material-icons.md-24 { font-size: 24px; }
