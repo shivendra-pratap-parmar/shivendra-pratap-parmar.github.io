@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
+
+:root{
+    --tuna: #383839;
+    --puerto-rico: #3fccb4;
+    --black-haze: #f2f3f3;
+    --edward: #a0b1ae;
+    --gray: #848484;
+    --mandy: #ec5b73;
+    --tiara: #c5d4d1;
+    --silver: #bcbcbc;
+    --wewak: #f096a4;
+    --dark-bg: #f0f0f0;
+}
+
+body{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+.main-container{
+    display: flex;
+    height: 100vh;
+}
+
+.left-section{
+    width: 18%;
+}
+
+.logo-text{
+    padding-left: 2.05em;
+    padding-top: 1.1em;
+    padding-bottom: 2.5em;
+}
+
+.middle-section{
+    width: 52%;
+    background-color: var(--dark-bg);
+}
+
+.right-section{
+    width: 30%;
+    background-color: var(--dark-bg);
+}
+
+.main-header{
+    /* height: 100%; */
+    padding: 1em 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    flex-grow: 1;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+}
+
+.nav-list li:nth-of-type(7){
+    margin-top: auto;
+}
+
+.nav-items{
+    color: var(--gray);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 1em 2em;
+    border-left: solid 5px transparent;
+}
+
+.nav-items:first-child{
+    color: var(--puerto-rico);
+    border-color: var(--puerto-rico);
+}
+
+.nav-items:last-child{
+    color: var(--mandy);
+}
+
+/* Utility Classes */
+.ff-pt-serif{ font-family: 'PT Serif', serif; }
+
+.fs-2x { font-size: 2rem; }
+.fs-3x { font-size: 3rem; }
+
+.fw-400{ font-weight: 400; }
+.fw-700{ font-weight: 700; }
+.fw-bold{ font-weight: bold; }
+
+.no-margin{ margin: 0; }
+
+.vertically-align-icon{ vertical-align: -5px; }
+
+.h1{ font-size: 2.5rem; }
+.h2{ font-size: 2.2rem; }
+.h3{ font-size: 1.5rem; }
+.h4{ font-size: 1.25rem; }
+.h5{ font-size: 1rem; }
+.h6{ font-size: 0.75rem; }
+
+.text-primary{ color: var(--gray); }
+.text-secondary{ color: var(--tuna); }
+.text-selected{ color: var(--puerto-rico); }
+
+.material-icons-outlined.md-18, .material-icons.md-18 { font-size: 18px; }
+.material-icons-outlined.md-24, .material-icons.md-24 { font-size: 24px; }
+.material-icons-outlined.md-36, .material-icons.md-36 { font-size: 36px; }
+.material-icons-outlined.md-48, .material-icons.md-48 { font-size: 48px; }
